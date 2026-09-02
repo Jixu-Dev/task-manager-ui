@@ -1,41 +1,86 @@
-# Task Manager UI
+<div align="center">
 
-A React + Vite frontend for the [Task Manager API](../task-manager-api), styled as a minimal, dark, developer-tool-inspired task list.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,20,24&height=200&section=header&text=Task%20Manager%20UI&fontSize=50&fontAlignY=35&fontColor=FFFFFF&desc=Developer-Styled%20Task%20Management%20Interface&descAlignY=55&descSize=18&animation=twinkling" width="100%"/>
 
-## Features
-- Add tasks via a terminal-prompt-style quick-add bar with inline priority selection
-- Filter tasks by status (all / pending / in progress / completed)
-- Click a task's status ring to cycle it through pending → in progress → completed
-- Inline editing of title, description, and priority
-- Delete tasks
-- Live counts of tasks by status
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
+[![CSS3](https://img.shields.io/badge/CSS3-Custom-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/)
 
-## Tech Stack
-- React 18
-- Vite
-- Plain CSS with a custom design token system (no UI framework)
+</div>
 
-## Setup
+---
 
-1. Install dependencies:
-   ```
-   npm install
-   ```
+## 📋 Overview
 
-2. Create a `.env` file (see `.env.example`) pointing to your running backend:
-   ```
-   VITE_API_URL=http://localhost:5000/api/tasks
-   ```
+**Task Manager UI** is the frontend companion to the [Task Manager API](https://github.com/Jixu-Dev/task-manager-api). Built with **React + Vite**, it delivers a minimal, dark, developer-tool-inspired task management experience with inline editing, priority tagging, and terminal-style interactions.
 
-3. Run the dev server:
-   ```
-   npm run dev
-   ```
+---
 
-4. Open the printed local URL (typically `http://localhost:5173`). Make sure the [Task Manager API](../task-manager-api) is running first.
+## ✨ Features
 
-## Build for production
+- ⌨️ **Terminal-Style Quick Add** — Add tasks via a command-prompt-inspired input bar
+- 🔄 **Status Cycling** — Click the status ring to cycle: `pending → in progress → completed`
+- ✏️ **Inline Editing** — Edit title, description, and priority without modals
+- 🎯 **Priority Tags** — Visual Low / Medium / High priority indicators
+- 🔍 **Status Filtering** — Filter tasks by All / Pending / In Progress / Completed
+- 📊 **Live Counters** — Real-time task counts by status
+- 🗑️ **Quick Delete** — One-click task removal with confirmation
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+| Category | Technologies |
+|:---:|:---:|
+| **Framework** | <img src="https://skillicons.dev/icons?i=react&theme=dark" height="30"/> React 18 |
+| **Build Tool** | <img src="https://skillicons.dev/icons?i=vite&theme=dark" height="30"/> Vite 5 |
+| **Language** | <img src="https://skillicons.dev/icons?i=js&theme=dark" height="30"/> JavaScript ES6+ |
+| **Styling** | <img src="https://skillicons.dev/icons?i=css&theme=dark" height="30"/> Custom CSS (Dark Theme) |
+| **API** | [Task Manager API](https://github.com/Jixu-Dev/task-manager-api) |
+
+</div>
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/Jixu-Dev/task-manager-ui.git
+cd task-manager-ui
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
 ```
-npm run build
-```
-Outputs a static `dist/` folder that can be deployed to Vercel, Netlify, or any static host.
+
+> **Note:** Make sure the [Task Manager API](https://github.com/Jixu-Dev/task-manager-api) is running for full functionality.
+
+---
+
+## 🔗 Related
+
+| Repository | Description |
+|---|---|
+| [task-manager-api](https://github.com/Jixu-Dev/task-manager-api) | RESTful backend for task CRUD operations |
+
+---
+
+<div align="center">
+
+### 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+<br/>
+
+**Built with 💚 by [Rohit Gowda](https://github.com/Jixu-Dev)**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14,20,24&height=100&section=footer&animation=twinkling" width="100%"/>
+
+</div>
